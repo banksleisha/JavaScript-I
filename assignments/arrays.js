@@ -88,7 +88,7 @@ let carModels = [];
 for(let x = 0; x < inventory.length; x++){
     carModels.push(inventory[x]['.car_model'])
 }
-carModels.sort(;)
+carModels.sort()
 console.log(carModels);
 
 // ==== Challenge 4 ====
